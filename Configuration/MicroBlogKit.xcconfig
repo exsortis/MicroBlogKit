@@ -1,0 +1,17 @@
+
+#include "../Submodules/xcconfigs/Base/Targets/Framework.xcconfig"
+#include "../Submodules/xcconfigs/Base/Configurations/Release.xcconfig"
+
+PRODUCT_NAME = MicroBlogKit
+PRODUCT_BUNDLE_IDENTIFIER = blog.micro.MicroBlogKit
+MODULE_NAME = MicroBlogKit
+IBSC_MODULE = MicroBlogKit
+PRODUCT_MODULE_NAME = MicroBlogKit
+EXECUTABLE_NAME = MicroBlogKit
+
+INFOPLIST_FILE = Sources/MicroBlogKit/Info.plist
+
+SWIFT_VERSION = 3.2
+SWIFT_SWIFT3_OBJC_INFERENCE = YES
+
+LD_RUNPATH_SEARCH_PATHS = $(inherited) @executable_path/Frameworks @loader_path/../Frameworks
